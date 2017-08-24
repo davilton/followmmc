@@ -323,7 +323,7 @@ input[type='radio'] {
   margin-left: 0;
   max-width: 100%;
   width: 100%;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 .row .column.column-offset-10 {
@@ -435,6 +435,7 @@ input[type='radio'] {
     flex-direction: row;
     margin-left: -1.0rem;
     width: calc(100% + 2.0rem);
+    margin-bottom: 2rem;
   }
   .row .column {
     margin-bottom: inherit;
@@ -603,18 +604,21 @@ img {
 
 .navigation {
   background: #00AEEF;
-
   border-bottom: .1rem solid #d1d1d1;
   display: block;
   height: 5.2rem;
   left: 0;
   max-width: 100%;
   position: fixed;
-  font-size: 3rem;
-  /*right: 0;*/
-  /*top: 0;*/
+  font-size: 2rem;
+  right: 0;
+  top: 0;
   width: 100%;
   z-index: 1;
+}
+
+.navigation .container {
+  text-align: center;
 }
 
 .navigation a {
@@ -658,7 +662,8 @@ li.navigation-item {
   line-height: 5.2rem;
   display: inline;
   text-transform: uppercase;
-  font-weight: 800; 
+  font-weight: 800;
+  padding: 0 2rem; 
 }
 
 .brand {
