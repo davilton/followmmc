@@ -661,41 +661,45 @@ li.navigation-item {
   font-weight: 800; 
 }
 
-.sib {
-  height: 40rem;
+.brand {
+  height: 10rem;
+}
+
+#brands .row {
+  margin-bottom: 2rem;
 }
 
 #v2 {
   display: block;
-  height: 10rem;
+  height: 9rem;
   width: auto;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
 #tas {
   display: block;
-  height: 10rem;
+  height: 6rem;
   width: auto;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
 #mp {
   display: block;
-  height: 10rem;
+  height: 8rem;
   width: auto;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
 #rel {
   display: block;
-  height: 10rem;
+  height: 7rem;
   width: auto;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
 #jack {
   display: block;
-  height: 10rem;
+  height: 7rem;
   width: auto;
   margin: 0 auto;
   margin-bottom: 2rem;
